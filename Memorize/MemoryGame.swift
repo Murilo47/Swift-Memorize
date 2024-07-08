@@ -58,7 +58,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable { //here we care a l
 //        }
         // I don't need this because swift can see all my vars are equatable, so it figured out how to compare them
         
-        var isFaceUp = false
+        var isFaceUp = true
         var isMatched = false
         let content: CardContent //don't care type
         
